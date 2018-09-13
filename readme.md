@@ -43,7 +43,8 @@ dxy_profile.py # 用户主页代码 最后运行只需运行这个即可，记�
 
 ```
 
-
+【**项目使用**】
+根据上述项目目录修改`raw_id`,除此之外，需要本地安装mongodb,并创建数据库名为test,collection为dxy,记得运行前修改`bbs_genspider.py`里面的`cookie`,最后运行`dxy_profile.py`即可。
 
 ## 1.原理分析
 
