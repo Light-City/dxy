@@ -156,5 +156,5 @@ def Sava_Excel(self, userinfo):
 
 ## 6.面向对象封装
 
-最后，采用面向对象思想对上述代码进行封装。完整代码，[请戳这里!!!](https://github.com/Light-City/dxy/raw_demo/)
+最后，采用面向对象思想对上述代码进行封装。完整代码，[请戳这里!!!](https://github.com/Light-City/dxy/tree/master/raw_demo)
 
