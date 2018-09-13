@@ -291,7 +291,7 @@ class dxy_spider(object):
         data.to_csv('./each/' + user + '.csv', encoding='utf_8_sig', index=False)
 ```
 
-注意：与上节相比，唯一变动的是`data.to_csv('./each/' + user + '.csv', encoding='utf_8_sig', index=False)`,修改为`encoding=utf_8_sig`，防止有些电脑打开csv文件乱码！
+注意：与上节相比，唯一变动的是`data.to_csv('./' + user + '.csv', encoding='utf-8', index=False) `,修改为`data.to_csv('./each/' + user + '.csv', encoding='utf_8_sig', index=False)`，防止有些电脑打开csv文件乱码！
 
 大改动如下：
 
