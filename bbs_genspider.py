@@ -16,7 +16,7 @@ class bbs_genspider(object):
             'Accept-Language': 'zh-CN,zh;q=0.9',
             'Cache-Control': 'max-age=0',
             'Connection': 'keep-alive',
-            'Cookie': 'DXY_USER_GROUP=76; __auc=89a8d088165c34297aee8f8ac60; _ga=GA1.2.229241838.1536579247; _gid=GA1.2.1243023568.1536728345; __utmz=1.1536759683.2.2.utmcsr=auth.dxy.cn|utmccn=(referral)|utmcmd=referral|utmcct=/; JUTE_SESSION_ID=53cc8611-7e90-4e9b-a763-a19c031c37b5; __asc=ccd58106165d07f9e8859adaca1; CMSSESSIONID=2EE136E4C6502514A321CDFDE839EF1C-n2; __utma=1.229241838.1536579247.1536759683.1536801762.3; __utmc=1; __utmt=1; Hm_lvt_8a6dad3652ee53a288a11ca184581908=1536748407,1536759683,1536801762; JUTE_SESSION=99ccb72fed77762b56f5bb3fbe20ac2a7d32e233a1f70b3cb6a08ab3dd441461b0f2110e0170ad73; __utmb=1.5.9.1536801780604; Hm_lpvt_8a6dad3652ee53a288a11ca184581908=1536801781; JUTE_BBS_DATA=b6b8ad211ff9bd54bd7a543fcca8632b4c04b6e31dc97b7138c17066988cd6fc4f83512659a7da7cfd6d36652181c399fbef224591f31a432b8bbefbe5b1cc83cb53b7f3883e40e035523549f61dfd27',
+            'Cookie': '填写自己的cookie',
             'Host': 'www.dxy.cn',
             'Referer': 'https://auth.dxy.cn/',
             'Upgrade-Insecure-Requests': '1',
