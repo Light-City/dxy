@@ -1,9 +1,3 @@
----
-title: 爬虫系列之丁香园论坛的所有回复用户数据
-tags: 爬虫系列
-categories: Python
-date: 2018-09-13 11:05:00
----
 
 ![](http://p20tr36iw.bkt.clouddn.com/py_scrapy_dxy_user.png)
 
