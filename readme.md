@@ -1,5 +1,5 @@
 
-![](http://p20tr36iw.bkt.clouddn.com/py_scrapy_dxy_user.png)
+![](https://github.com/Light-City/images/blob/master/py_scrapy_dxy_user.png?raw=true)
 
 # 爬虫系列之丁香园论坛的所有回复用户数据
 
@@ -52,11 +52,11 @@ dxy_profile.py # 用户主页代码 最后运行只需运行这个即可，记�
 
 - bbs论坛
 
-![](http://p20tr36iw.bkt.clouddn.com/py_index1.png)
+![](https://github.com/Light-City/images/blob/master/py_index1.png?raw=true)
 
 - 用户个人主页
 
-![](http://p20tr36iw.bkt.clouddn.com/py_dxy_info.png)
+![](https://github.com/Light-City/images/blob/master/py_dxy_info.png?raw=true)
 
 以上就是我们要爬取的目标站点。
 
@@ -84,11 +84,12 @@ dxy_profile.py # 用户主页代码 最后运行只需运行这个即可，记�
 
 注意：下图中的链接为bbs链接！
 
-![](http://p20tr36iw.bkt.clouddn.com/py_bbs_page.png)
+![](https://github.com/Light-City/images/blob/master/py_bbs_page.png?raw=true)
 
 每变动一页，会发现在id后面多了个`?ppg=6`，我们会发现此处的6正是页数，我们再来看一张图：
 
-![](http://p20tr36iw.bkt.clouddn.com/py_page.png)
+![](https://github.com/Light-City/images/blob/master/py_page.png?raw=true)
+
 
 那么只需要通过xpath定位到`<div class="num">`下面的最后一个`a`标签即可，这个规律为从打开多个bbs链接中发现的！
 
@@ -231,7 +232,8 @@ print(bbs_avater)
 print(len(bbs_avater))
 ```
 
-![](http://p20tr36iw.bkt.clouddn.com/py_test.png)
+![](https://github.com/Light-City/images/blob/master/py_test.png?raw=true)
+
 
 上述测试的是单页面，然后打开网址`http://www.dxy.cn/bbs/thread/12345`,自己数一下(记得去重)，便跟上述打印的结果数量3一样！到这里便测试成功了！
 
@@ -384,21 +386,27 @@ def get_UserInfo(self):
 
 这里采用异常处理原因如下：
 
-![](http://p20tr36iw.bkt.clouddn.com/py_yidao.png)
+![](https://github.com/Light-City/images/blob/master/py_yidao.png?raw=true)
 
 上图我们发现壹刀的数据乱了，那么我们现在进入这个人的主页来看。
 
 浏览器输入`http://i.dxy.cn/profile/壹刀`，会发现重定向进入`http://i.dxy.cn/lizhanqiang`这个页面，如下图所示:
 
-![](http://p20tr36iw.bkt.clouddn.com/py_yidao_index.png)
+
+![](https://github.com/Light-City/images/blob/master/py_yidao_index.png?raw=true)
+
 
 会发现这个已经不是我们想要的用户页面图了。。。所以自然那些数据爬取不到，就会报错。。这样就得加异常处理！如下图所示为加异常处理后的结果，会发现已经对齐！
 
-![](http://p20tr36iw.bkt.clouddn.com/py_yidaonew.png)
+
+![](https://github.com/Light-City/images/blob/master/py_yidaonew.png?raw=true)
+
 
 异常处理前，数据不对齐，还有另外一种就是这个人的用户主页没了。。。对，没错就是404。。。如：浏览器打开`http://i.dxy.cn/ymyl`，会看到下图所示页面，直接404了，自然没数据，没数据，自然报错，这就是异常处理的作用！
 
-![](http://p20tr36iw.bkt.clouddn.com/py_404.png)
+
+![](https://github.com/Light-City/images/blob/master/py_404.png?raw=true)
+
 
 ### 2.3 bbs与用户主页联合使用
 
@@ -446,22 +454,27 @@ if __name__ == '__main__':
 
 - **终端log**
 
-  ![](http://p20tr36iw.bkt.clouddn.com/bbs_user.png)
+![](https://github.com/Light-City/images/blob/master/bbs_user.png?raw=true)
 
-  ![](http://p20tr36iw.bkt.clouddn.com/bbs_pic.png)
+![](https://github.com/Light-City/images/blob/master/bbs_pic.png?raw=true)
 
 
 - **数据库**
 
-![](http://p20tr36iw.bkt.clouddn.com/py_scrapy_dxy_user.png)
+![](https://github.com/Light-City/images/blob/master/py_scrapy_dxy_user.png?raw=true)
 
 - **本地**
 
-![](http://p20tr36iw.bkt.clouddn.com/py_ziduan.png)
 
-![](http://p20tr36iw.bkt.clouddn.com/pic_data.png)
+![](https://github.com/Light-City/images/blob/master/py_ziduan.png?raw=true)
 
-![](http://p20tr36iw.bkt.clouddn.com/csv_data.png)
+
+![](https://github.com/Light-City/images/blob/master/pic_data.png?raw=true)
+
+
+![](https://github.com/Light-City/images/blob/master/csv_data.png?raw=true)
+
+
 
 ## 3.项目地址
 [戳这里，欢迎star!!!](https://github.com/Light-City/dxy)
